@@ -1,2 +1,2 @@
-FROM snowzach/doods2:latest
+FROM ghouldevourer/doods2:latest
 CMD ["-c", "/data/options.json", "api"]
