@@ -1,9 +1,9 @@
-name: DOODS2
+name: DOODS2_8765
 version: '1'
 slug: doods2
-url: https://github.com/snowzach/hassio-addons/tree/master/doods2
+url: https://github.com/ghouldevourer/hassio-addons/tree/master/doods2
 description: DOODS V2 Object Detection API - Common Compute Support
-webui: http://[HOST]:[PORT:8080]
+webui: http://[HOST]:[PORT:8765]
 arch:
 - armhf
 - armv7
@@ -27,7 +27,7 @@ options:
   logger:
     level: info
   server:
-    port: '8080'
+    port: '8765'
     auth_key: ''
   doods.log: detections
   doods.boxes:
@@ -94,6 +94,6 @@ schema:
     labelFile: str?
     hwAccel: bool?
 ports:
-  8080/tcp: 8080
+  8765/tcp: 8765
 ports_description:
-  8080/tcp: DOODS2 port
+  8765/tcp: DOODS2 port
